@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-   
     
     <div id = "viewport"></div>
 
@@ -30,9 +29,18 @@
 
        h1 = appendChild.document.createTextNode (articles.title)
        p =  appendChild.document.createTextNode (articles.content)
+
+       h1.appendChild (title)
+       p.appendChild (content)
+
        
        return div
 
+   }
+
+   function renderArticle (articles) {
+       var div = document.createElement ('div')
+       
    }
 
     // document.createTextNode

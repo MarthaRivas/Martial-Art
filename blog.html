@@ -28,11 +28,12 @@
        var h1 = document.createElement ('h1')
        var p = document.createElement ('p')
 
-       div = appendChild ('h1')
+       div = appendChild (h1)
        div = appendChild (p)
 
        h1 = appendChild.document.createTextNode (articles.title)
        p =  appendChild.document.createTextNode (articles.content)
+       
        return div
 
    }
@@ -41,7 +42,7 @@
     // document.createElement
     // parentNode.appendChild 
 
-    Console.log( renderArticle (articles [0]));
+    console.log( renderArticle (articles [0]));
     
         
     </script>
